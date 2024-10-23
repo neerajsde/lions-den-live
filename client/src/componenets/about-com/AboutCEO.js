@@ -16,7 +16,7 @@ const AboutCEO = () => {
             </div>
         </div>
         <div className='w-[320px] max-lg:w-[300px] max-h-[340px] flex flex-col justify-start items-start border-4 border-gray-600 rounded-md'>
-            <img src={`${baseUrl}/files/1728539172569.png`} alt='ceo-img' className='w-full h-[300px] object-cover rounded-t-md'/>
+            <img src={`${baseUrl}/files/1729667323072.png`} alt='ceo-img' className='w-full h-[300px] object-cover rounded-t-md'/>
             <div className='w-full text-center bg-emerald-500 text-white text-xl font-semibold uppercase py-2'>Pro MMA Fighter</div>
         </div>
     </div>

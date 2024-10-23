@@ -3,7 +3,6 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import TestimonialCard from './TestimonialCard';
 import shapImg from '../../assets/shape.png'
-import teamImg from '../../assets/team.png'
 import test1Img from '../../assets/s-r.png'
 import test2Img from '../../assets/k-r.png'
 import test3Img from '../../assets/sr.png'
@@ -32,7 +31,7 @@ const Testimonials = () => {
             <div className="row">
                 <div className="col-lg-6">
                     <div className="tes-img">
-                        <img src={teamImg} alt="training"/>
+                        <img src={`${process.env.REACT_APP_BASE_URL}/files/1729667633011.jpg`} alt="training"/>
                     </div>
                 </div>
                 <div className="col-lg-6">

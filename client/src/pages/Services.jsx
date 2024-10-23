@@ -159,7 +159,7 @@ const Services = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="ps-img">
-                      <img src={thai2Imgs} alt="" />
+                      <img src={`${process.env.REACT_APP_BASE_URL}/files/1729678398592.jpg`} alt="" />
                     </div>
                   </div>
                 </div>
