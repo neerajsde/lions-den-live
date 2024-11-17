@@ -116,7 +116,7 @@ const UpdateCoach = () => {
         <div className="w-[400px] flex flex-col gap-4">
           <input
             type="text"
-            placeholder="enter branch name"
+            placeholder="enter coach name"
             value={coachName}
             onChange={(event) => setCoachName(event.target.value)}
             className="w-full flex text-lg py-2 px-3 bg-black text-gray-200 font-semibold placeholder:text-gray-600 !border rounded-sm !border-[#333] outline-none focus:!border-yellow-500"

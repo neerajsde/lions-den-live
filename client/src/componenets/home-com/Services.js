@@ -12,6 +12,7 @@ import muayImg from '../../assets/muay-thai.jpg'
 import wrestImg from '../../assets/wrestling.jpg'
 import mmaImg from '../../assets/mma.jpg'
 import fitImg from '../../assets/fitness.jpg'
+import { Link } from 'react-router-dom';
 
 const Services = () => {
     const [servicesCol, setServicesCol] = useState(false);
@@ -83,7 +84,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>01</h2>
-                                <h3><a href="muay-thai.html">Fitness And Kick <br/> Boxing</a></h3>
+                                <h3><Link to={`/services/fitness-and-kickboxing`}>Fitness And Kick <br/> Boxing</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -94,7 +95,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>02</h2>
-                                <h3><a href="muay-thai.html">Boxing</a></h3>
+                                <h3><Link to={`/services/boxing`}>Boxing</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -105,7 +106,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>03</h2>
-                                <h3><a href="muay-thai.html">Kick Boxing</a></h3>
+                                <h3><Link to={`/services/kickboxing`}>Kick Boxing</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -116,7 +117,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>04</h2>
-                                <h3><a href="muay-thai.html">Jui Jitsu</a></h3>
+                                <h3><Link to={`/services/jiu-jitsu`}>Jiu Jitsu</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -127,7 +128,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>05</h2>
-                                <h3><a href="muay-thai.html">Kids Self Defence</a></h3>
+                                <h3><Link to={`/services/kids-self-defense`}>Kids Self Defence</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -138,7 +139,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>06</h2>
-                                <h3><a href="muay-thai.html">Self Defence</a></h3>
+                                <h3><Link to={`/services/self-defence`}>Self Defence</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -149,7 +150,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>07</h2>
-                                <h3><a href="muay-thai.html">Muay Thai</a></h3>
+                                <h3><Link to={`/services/muay-thai`}>Muay Thai</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -160,7 +161,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>08</h2>
-                                <h3><a href="muay-thai.html">Wrestling</a></h3>
+                                <h3><Link to={`/services/wrestling`}>Wrestling</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -171,7 +172,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>09</h2>
-                                <h3><a href="muay-thai.html">Mixed Martial Arts</a></h3>
+                                <h3><Link to={`/services/mixed-martial`}>Mixed Martial Arts</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -182,7 +183,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>10</h2>
-                                <h3><a href="muay-thai.html">Fitness</a></h3>
+                                <h3><Link to={`/services/fitness`}>Fitness</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -196,7 +197,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>01</h2>
-                                <h3><a href="muay-thai.html">Fitness And Kick <br/> Boxing</a></h3>
+                                <h3><Link to={`/services/fitness-and-kickboxing`}>Fitness And Kick <br/> Boxing</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -207,7 +208,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>02</h2>
-                                <h3><a href="muay-thai.html">Boxing</a></h3>
+                                <h3><Link to={`/services/boxing`}>Boxing</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -218,7 +219,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>03</h2>
-                                <h3><a href="muay-thai.html">Kick Boxing</a></h3>
+                                <h3><Link to={`/services/kickboxing`}>Kick Boxing</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -229,7 +230,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>04</h2>
-                                <h3><a href="muay-thai.html">Jui Jitsu</a></h3>
+                                <h3><Link to={`/services/jiu-jitsu`}>Jui Jitsu</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -240,7 +241,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>05</h2>
-                                <h3><a href="muay-thai.html">Kids Self Defence</a></h3>
+                                <h3><Link to={`/services/kids-self-defense`}>Kids Self Defence</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -251,7 +252,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>06</h2>
-                                <h3><a href="muay-thai.html">Self Defence</a></h3>
+                                <h3><Link to={`/services/self-defence`}>Self Defence</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -262,7 +263,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>07</h2>
-                                <h3><a href="muay-thai.html">Muay Thai</a></h3>
+                                <h3><Link to={`/services/muay-thai`}>Muay Thai</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -273,7 +274,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>08</h2>
-                                <h3><a href="muay-thai.html">Wrestling</a></h3>
+                                <h3><Link to={`/services/wrestling`}>Wrestling</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -284,7 +285,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>09</h2>
-                                <h3><a href="muay-thai.html">Mixed Martial Arts</a></h3>
+                                <h3><Link to={`/services/mixed-martial`}>Mixed Martial Arts</Link></h3>
                             </div>
                         </div>
                     </div>
@@ -295,7 +296,7 @@ const Services = () => {
                             </div>
                             <div class="text">
                                 <h2>10</h2>
-                                <h3><a href="muay-thai.html">Fitness</a></h3>
+                                <h3><Link to={`/services/fitness`}>Fitness</Link></h3>
                             </div>
                         </div>
                     </div>

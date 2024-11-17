@@ -226,17 +226,23 @@ exports.editBlogPost = async (req, res) => {
 exports.getAllBlogsWithMoreInfo = async (req, res) => {
     try {
         const allBlogs = await blog.find().sort({ createdAt: -1 }).populate('user');
-
+        
         if (!allBlogs || allBlogs.length === 0) {
             return res.status(404).json({
                 success: false,
                 message: 'No blogs available'
             });
         }
+        const newBlogs = [];
+        for(let i=0; i<allBlogs.length; i++){
+            if(allBlogs[i].isPublish === true){
+                newBlogs.push(allBlogs[i]);
+            }
+        }
 
         res.status(200).json({
             success: true,
-            blogs: allBlogs,
+            blogs: newBlogs,
             message: 'All blogs retrieved successfully'
         });
     } catch (err) {
